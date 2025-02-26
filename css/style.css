@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.all {
+  width: 100%;
+}
+.all header {
+  width: 100%;
+  display: flex;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.all header .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.all header .logo img {
+  height: 50px;
+}
+.all header .links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.all header .links a {
+  color: black;
+  font-size: larger;
+  font-family: sans-serif;
+  font-size: bolder;
+}
+.all header .links .harm {
+  font-family: arial black;
+  font-size: 32px;
+  font-weight: 900;
+  color: yellow;
+  display: none;
+}
+.all header .left a {
+  color: black;
+  font-size: larger;
+  font-family: sans-serif;
+  font-size: bolder;
+}
+.all .section-one {
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  background: url(../assets/billpay-bg-opt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.all .section-one .content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  line-height: 70px;
+  padding: 0 20PX;
+}
+.all .section-one .content .text {
+  font-size: 60px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.all .section-one .content button {
+  padding: 15px 27px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background: darkblue;
+}
+.all .section-one .content button a {
+  color: white;
+}
+.all .section-two {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: white;
+  flex-wrap: wrap;
+}
+.all .section-two .one {
+  padding: 10px 16px;
+  text-align: center;
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  background-color: rgba(169, 169, 169, 0.226);
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  header .right {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+  header .logo img {
+    height: 50px;
+    width: 90px;
+  }
+  header .links {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
+  header .links .h {
+    display: none;
+  }
+  header .links a {
+    color: black;
+    font-size: 9px;
+    font-family: sans-serif;
+    font-size: bolder;
+  }
+  header .links .harm {
+    display: block;
+    padding-bottom: 12px;
+    cursor: pointer;
+  }
+  header .left a {
+    color: black;
+    font-size: larger;
+    font-family: sans-serif;
+    font-size: 9px;
+  }
+  .section-one {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/billpay-bg-opt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+  }
+  .section-one .content {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    line-height: 70px;
+    padding-right: 50px;
+  }
+  .section-one .content .text {
+    font-size: 10px;
+    color: blue;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .section-one .content button {
+    padding: 15px 27px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: darkblue;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
